@@ -1,0 +1,67 @@
+{
+    "workbench.colorTheme": "Tokyo Night Storm",
+
+    "vim.leader": "<space>",
+    "vim.useSystemClipboard": true,
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "J"
+            ],
+            "after": [
+                "5",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "5",
+                "k"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "J"
+            ],
+            "after": [
+                "5",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "5",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "s"
+            ],
+            "commands": [
+                ":w"
+            ]
+        }
+    ],
+    "files.autoSave": "onFocusChange",
+    "files.trimTrailingWhitespace": true,
+
+    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+
+    "editor.fontFamily": "Fira Code, Kaiti, Hack,  Consolas, Courier New, monospace",
+    "window.zoomLevel": 1
+}

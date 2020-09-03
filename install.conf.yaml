@@ -1,8 +1,25 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
 - clean: ['~']
 
 - link:
     ~/.zshrc: zshrc
-    ~/.Xresources: Xresources
     ~/.xinitrc: xinitrc
+    ~/.Xresources: Xresources
+    ~/.config/kglobalshortcutsrc: kglobalshortcutsrc
+
+    ~/.doom.d: doom.d
+    ~/.config/yay: config/yay
+    ~/.config/alacritty: config/alacritty
+    ~/.config/Code/User/snippets: config/Code/User/snippets
+    ~/.config/Code/User/:
+      glob: true
+      path: config/Code/User/*.json
+
+- shell:
+    - git submodule update --init --recursive
 
 
