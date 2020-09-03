@@ -1,0 +1,8 @@
+- clean: ['~']
+
+- link:
+    ~/.zshrc: zshrc
+    ~/.Xresources: Xresources
+    ~/.xinitrc: xinitrc
+
+
