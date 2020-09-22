@@ -63,5 +63,14 @@
     "git.enableSmartCommit": true,
 
     "editor.fontFamily": "Fira Code, Kaiti, Hack,  Consolas, Courier New, monospace",
-    "window.zoomLevel": 1
+    "window.zoomLevel": 0,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/usr/lib/jvm/java-8-openjdk/jre/bin/",
+        }
+    ],
 }

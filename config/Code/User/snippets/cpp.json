@@ -18,4 +18,14 @@
 		"body": ["/*", " * $0", " */", "", "#include \"header.h\"", ""],
 		"description": "Leetcode problem description comment and include \"header.h\""
 	},
+
+	"For Loop": {
+		"prefix": "for",
+		"body": [
+			"for (${1:int} ${2:i} = ${3:0}; ${2:i} < ${4:n}; ${2:i}++) {",
+			"    ${5:/* code */}",
+			"}"
+		],
+		"description": "My own for loop code snippet"
+	}
 }
