@@ -9,7 +9,7 @@ export PATH=$PATH:/home/qiu/.emacs.d/bin
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="random"
+ZSH_THEME="intheloop"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#808080'
 
 # Set list of themes to pick from when loading at random
@@ -100,6 +100,7 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+alias py="python"
 alias ra="ranger"
 alias ss="sudo pacman -S"
 alias sss="sudo pacman -Ss"

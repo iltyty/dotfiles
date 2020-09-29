@@ -42,16 +42,6 @@
                 "k"
             ]
         },
-        {
-            "before": [
-                "<leader>",
-                "f",
-                "s"
-            ],
-            "commands": [
-                ":w"
-            ]
-        }
     ],
     "files.autoSave": "onFocusChange",
     "files.trimTrailingWhitespace": true,
@@ -73,4 +63,12 @@
             "path": "/usr/lib/jvm/java-8-openjdk/jre/bin/",
         }
     ],
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "C_Cpp.clang_format_style": "Google",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "python.languageServer": "Microsoft",
 }
