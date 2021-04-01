@@ -53,7 +53,7 @@
     "git.enableSmartCommit": true,
 
     "editor.fontFamily": "Fira Code, Kaiti, Hack,  Consolas, Courier New, monospace",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
@@ -71,4 +71,20 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "python.languageServer": "Microsoft",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "latex-workshop.latex.tools": [{
+        "name": "latexmk",
+        "command": "latexmk",
+        "args": [
+            "-xelatex",
+            "-synctex=1",
+            "-interaction=nonstopmode",
+            "-file-line-error",
+            "%DOC%"
+        ]
+    }
+],
+"editor.fontSize": 16,
 }
