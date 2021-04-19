@@ -1,11 +1,18 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
+switch-to-activity-8b8c94c3-98db-48e5-af27-f81b6ff07310=none,none,Switch to activity "Default"
 switch-to-activity-cca0cc9c-af0d-4a3f-a536-25862878bf2b=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
+
+[google-chrome.desktop]
+_k_friendly_name=Google Chrome
+_launch=Alt+B,,Google Chrome
+new-private-window=,,New Incognito Window
+new-window=,,New Window
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
@@ -23,13 +30,12 @@ _k_friendly_name=KDE Daemon
 display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
-_k_friendly_name=KDE Daemon
-{334f1982-6733-45d5-bd78-1dfeff677a60}=Alt+Return,none,Alacritty
-{3986d3ab-03b6-4eaf-b02a-b02fffd9ec1c}=Alt+B,none,Chrome
-{59cc56e5-a598-49e3-bf08-7474214e7b98}=Alt+V,none,Qv2ray
-{9a038047-42cf-4c71-87a1-cc6c56fd21d9}=Alt+E,none,Emacs
+_k_friendly_name=Custom Shortcuts Service
+{3822729b-6eb0-46e9-b60a-61d20680950f}=none,none,New Action
+{6de93889-768f-4f97-bcac-d6a80575a6f3}=Alt+Return,none,Alacritty
+{84f74b1b-e8ad-4c1d-b192-78be92ee1494}=Ctrl+Alt+T,none,Launch Konsole
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
-{ef6beeee-d89f-4bbf-9d2d-3e51d9c08948}=Alt+C,none,VSCode
+{df7b12f5-4558-465b-b449-a73398a33a51}=none,none,New Action
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -46,11 +52,11 @@ _k_friendly_name=KRunner
 _launch=Alt+Space\tAlt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
 
 [ksmserver]
-Halt Without Confirmation=Ctrl+Alt+Shift+PgDown,none,Halt Without Confirmation
+Halt Without Confirmation=Ctrl+Alt+Shift+PgDown,Ctrl+Alt+Shift+PgDown,Halt Without Confirmation
 Lock Session=Meta+L\tCtrl+Alt+L\tScreensaver,Meta+L\tCtrl+Alt+L\tScreensaver,Lock Session
-Log Out=Ctrl+Alt+Del,none,Log Out
-Log Out Without Confirmation=Ctrl+Alt+Shift+Del,none,Log Out Without Confirmation
-Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,none,Reboot Without Confirmation
+Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Log Out
+Log Out Without Confirmation=Ctrl+Alt+Shift+Del,Ctrl+Alt+Shift+Del,Log Out Without Confirmation
+Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,Ctrl+Alt+Shift+PgUp,Reboot Without Confirmation
 _k_friendly_name=Session Management
 
 [kwin]
@@ -140,10 +146,10 @@ Window Minimize=Alt+Shift+F\tMeta+PgDown,Meta+PgDown,Minimize Window
 Window Move=none,none,Move Window
 Window No Border=none,none,Hide Window Border
 Window On All Desktops=none,none,Keep Window on All Desktops
-Window One Desktop Down=none,none,Window One Desktop Down
-Window One Desktop Up=none,none,Window One Desktop Up
-Window One Desktop to the Left=none,none,Window One Desktop to the Left
-Window One Desktop to the Right=none,none,Window One Desktop to the Right
+Window One Desktop Down=none,Meta+Ctrl+Shift+Down,Window One Desktop Down
+Window One Desktop Up=none,Meta+Ctrl+Shift+Up,Window One Desktop Up
+Window One Desktop to the Left=none,Meta+Ctrl+Shift+Left,Window One Desktop to the Left
+Window One Desktop to the Right=none,Meta+Ctrl+Shift+Right,Window One Desktop to the Right
 Window Operations Menu=Alt+F3,Alt+F3,Window Operations Menu
 Window Pack Down=none,none,Pack Window Down
 Window Pack Left=none,none,Pack Window to the Left
@@ -183,9 +189,9 @@ Window to Desktop 7=none,none,Window to Desktop 7
 Window to Desktop 8=none,none,Window to Desktop 8
 Window to Desktop 9=none,none,Window to Desktop 9
 Window to Next Desktop=none,none,Window to Next Desktop
-Window to Next Screen=none,none,Window to Next Screen
+Window to Next Screen=none,Meta+Shift+Right,Window to Next Screen
 Window to Previous Desktop=none,none,Window to Previous Desktop
-Window to Previous Screen=none,none,Window to Previous Screen
+Window to Previous Screen=none,Meta+Shift+Left,Window to Previous Screen
 Window to Screen 0=none,none,Window to Screen 0
 Window to Screen 1=none,none,Window to Screen 1
 Window to Screen 2=none,none,Window to Screen 2
@@ -216,6 +222,14 @@ _launch=Meta+E,Meta+E,Dolphin
 _k_friendly_name=Emoji Selector
 _launch=Meta+.,Meta+.,Emoji Selector
 
+[org.kde.spectacle.desktop]
+ActiveWindowScreenShot=Meta+Print,Meta+Print,Capture Active Window
+CurrentMonitorScreenShot=,,Capture Current Monitor
+FullScreenScreenShot=Shift+Print,Shift+Print,Capture Entire Desktop
+RectangularRegionScreenShot=Meta+Shift+Print,Meta+Shift+Print,Capture Rectangular Region
+_k_friendly_name=Spectacle
+_launch=Print,Print,Spectacle
+
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
 Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Decrease Screen Brightness
@@ -241,6 +255,7 @@ activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
+activate widget 2=,none,Activate Application Launcher Widget
 activate widget 28=none,none,Activate Task Manager Widget
 activate widget 3=Alt+F1,none,Activate Application Launcher Widget
 clear-history=none,none,Clear Clipboard History
@@ -248,7 +263,7 @@ clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item
 cyclePrevAction=none,none,Previous History Item
 edit_clipboard=none,none,Edit Contents...
-manage activities=Meta+Q,Meta+Q,Activities...
+manage activities=Meta+Q,Meta+Q,Show Activity Switcher
 next activity=Meta+Tab,none,Walk through activities
 previous activity=Meta+Shift+Tab,none,Walk through activities (Reverse)
 repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
@@ -263,3 +278,7 @@ toggle do not disturb=none,none,Toggle do not disturb
 [systemsettings.desktop]
 _k_friendly_name=System Settings
 _launch=Tools,Tools,System Settings
+
+[yakuake]
+_k_friendly_name=Yakuake
+toggle-window-state=F12,F12,Open/Retract Yakuake

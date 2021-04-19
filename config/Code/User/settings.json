@@ -1,8 +1,41 @@
 {
-    "workbench.colorTheme": "Tokyo Night Storm",
+    "workbench.colorTheme": "Palenight Theme",
+    "python.pythonPath": "Q:\\Work\\DevEnv\\Python\\python.exe",
+    "files.autoSave": "onFocusChange",
 
     "vim.leader": "<space>",
     "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "J"
+            ],
+            "after": [
+                "5",
+                "j"
+            ]
+            
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "5",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "s"
+            ],
+            "commands": [
+                ":w"
+            ]
+        }
+    ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": [
@@ -23,68 +56,14 @@
             ]
         }
     ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "J"
-            ],
-            "after": [
-                "5",
-                "j"
-            ]
-        },
-        {
-            "before": [
-                "K"
-            ],
-            "after": [
-                "5",
-                "k"
-            ]
-        },
-    ],
-    "files.autoSave": "onFocusChange",
-    "files.trimTrailingWhitespace": true,
-
-    "C_Cpp.updateChannel": "Insiders",
-    "C_Cpp.default.compilerPath": "/usr/bin/g++",
-
-    "git.confirmSync": false,
     "git.enableSmartCommit": true,
-
-    "editor.fontFamily": "Fira Code, Kaiti, Hack,  Consolas, Courier New, monospace",
+    "git.confirmSync": false,
+    "editor.fontFamily": "Fantasque Sans Mono, Fira Code, Consolas, 'Courier New', monospace",
     "window.zoomLevel": -1,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-
-    "java.configuration.runtimes": [
+    "workbench.editorAssociations": [
         {
-            "name": "JavaSE-1.8",
-            "path": "/usr/lib/jvm/java-8-openjdk/jre/bin/",
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
         }
     ],
-    "[cpp]": {
-        "editor.defaultFormatter": "xaver.clang-format"
-    },
-    "C_Cpp.clang_format_style": "Google",
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "python.languageServer": "Microsoft",
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.python"
-    },
-    "latex-workshop.latex.tools": [{
-        "name": "latexmk",
-        "command": "latexmk",
-        "args": [
-            "-xelatex",
-            "-synctex=1",
-            "-interaction=nonstopmode",
-            "-file-line-error",
-            "%DOC%"
-        ]
-    }
-],
-"editor.fontSize": 16,
 }
