@@ -8,6 +8,7 @@
 - link:
     ~/.zshrc: zshrc
     ~/.xinitrc: xinitrc
+    ~/.xmodmap: xmodmap
     ~/.Xresources: Xresources
     ~/.config/kglobalshortcutsrc: kglobalshortcutsrc
 

@@ -31,11 +31,9 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
-{3822729b-6eb0-46e9-b60a-61d20680950f}=none,none,New Action
 {6de93889-768f-4f97-bcac-d6a80575a6f3}=Alt+Return,none,Alacritty
 {84f74b1b-e8ad-4c1d-b192-78be92ee1494}=Ctrl+Alt+T,none,Launch Konsole
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
-{df7b12f5-4558-465b-b449-a73398a33a51}=none,none,New Action
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -210,6 +208,8 @@ _k_friendly_name=Media Controller
 mediavolumedown=none,none,Media volume down
 mediavolumeup=none,none,Media volume up
 nextmedia=Media Next,Media Next,Media playback next
+pausemedia=Media Pause,Media Pause,Pause media playback
+playmedia=none,none,Play media playback
 playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback

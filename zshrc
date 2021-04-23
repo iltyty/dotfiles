@@ -4,12 +4,16 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/lululu/.oh-my-zsh"
 export PATH=$PATH:$HOME/.emacs.d/bin
+export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'
+export ANDROID_EMU_TEST_WITH_WINDOW=1
+export ANDROID_SDK_ROOT=$HOME/Android/Sdk
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#808080'
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
