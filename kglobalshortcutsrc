@@ -279,6 +279,11 @@ toggle do not disturb=none,none,Toggle do not disturb
 _k_friendly_name=System Settings
 _launch=Tools,Tools,System Settings
 
+[visual-studio-code.desktop]
+_k_friendly_name=Visual Studio Code
+_launch=Alt+C,,Visual Studio Code
+new-empty-window=,,New Empty Window
+
 [yakuake]
 _k_friendly_name=Yakuake
 toggle-window-state=F12,F12,Open/Retract Yakuake

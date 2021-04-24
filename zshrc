@@ -111,5 +111,6 @@ export LANG=en_US.UTF-8
 alias c="clear"
 alias py="python"
 alias ra="ranger"
+alias sr="sudo pacman -R"
 alias ss="sudo pacman -S"
 alias sss="sudo pacman -Ss"
