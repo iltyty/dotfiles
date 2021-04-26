@@ -1,5 +1,6 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
+switch-to-activity-0eaf5bac-f84d-4cdc-b45f-1c3e53ca076b=none,none,Switch to activity "Default"
 switch-to-activity-8b8c94c3-98db-48e5-af27-f81b6ff07310=none,none,Switch to activity "Default"
 switch-to-activity-cca0cc9c-af0d-4a3f-a536-25862878bf2b=none,none,Switch to activity "Default"
 
@@ -31,8 +32,8 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
-{6de93889-768f-4f97-bcac-d6a80575a6f3}=Alt+Return,none,Alacritty
-{84f74b1b-e8ad-4c1d-b192-78be92ee1494}=Ctrl+Alt+T,none,Launch Konsole
+{30ed81d1-910b-46a8-bb79-8abfacc7f747}=Alt+Return,none,Alacritty
+{44adc1eb-75a2-4188-a1d7-f5fb75680418}=,none,Launch Konsole
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
 
 [kmix]
@@ -274,6 +275,15 @@ stop current activity=Meta+S,Meta+S,Stop Current Activity
 switch to next activity=none,none,Switch to Next Activity
 switch to previous activity=none,none,Switch to Previous Activity
 toggle do not disturb=none,none,Toggle do not disturb
+
+[qv2ray.desktop]
+_k_friendly_name=Qv2ray
+_launch=Alt+V,,Qv2ray
+debug=,,Start with Debug Mode
+noAPI=,,Start without gRPC API
+noAutoConnection=,,Start without automatic connection
+noPlugin=,,Start without Plugins
+noScaleFactor=,,Start without Scaling Factor
 
 [systemsettings.desktop]
 _k_friendly_name=System Settings
