@@ -6,16 +6,28 @@
 - clean: ['~']
 
 - link:
-    ~/.zshrc: zshrc
-    ~/.xinitrc: xinitrc
+    ~/.zshrc:
+      path: zshrc
+      force: true
+    ~/.xinitrc:
+      path: xinitrc
+      force: true
     ~/.xmodmap: xmodmap
     ~/.Xresources: Xresources
-    ~/.config/kglobalshortcutsrc: kglobalshortcutsrc
+    ~/.config/kglobalshortcutsrc:
+      path: kglobalshortcutsrc
+      force: true
 
     ~/.doom.d: doom.d
-    ~/.config/yay: config/yay
-    ~/.config/ranger: config/ranger
-    ~/.config/alacritty: config/alacritty
+    ~/.config/yay:
+      path: config/yay
+      force: true
+    ~/.config/ranger:
+      path: config/ranger
+      force: true
+    ~/.config/alacritty:
+      path: config/alacritty
+      force: true
     ~/.config/Code/User/snippets: config/Code/User/snippets
     ~/.config/Code/User/:
       glob: true
