@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/lululu/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export PATH=$PATH:$HOME/.emacs.d/bin
 export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'
 export ANDROID_EMU_TEST_WITH_WINDOW=1
@@ -114,3 +114,6 @@ alias ra="ranger"
 alias sr="sudo pacman -R"
 alias ss="sudo pacman -S"
 alias sss="sudo pacman -Ss"
+
+alias vi="vim"
+alias nvi="nvim"
