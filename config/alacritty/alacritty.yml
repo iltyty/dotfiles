@@ -188,9 +188,99 @@ schemes:
       cyan:    '#67d3c2'
       white:   '#ffffff'
 
+  tokyo-night: &tokyo-night
+    primary:
+      background: '0x1a1b26'
+      foreground: '0xa9b1d6'
+    normal:
+      black:   '0x32344a'
+      red:     '0xf7768e'
+      green:   '0x9ece6a'
+      yellow:  '0xe0af68'
+      blue:    '0x7aa2f7'
+      magenta: '0xad8ee6'
+      cyan:    '0x449dab'
+      white:   '0x787c99'
+    bright:
+      black:   '0x444b6a'
+      red:     '0xff7a93'
+      green:   '0xb9f27c'
+      yellow:  '0xff9e64'
+      blue:    '0x7da6ff'
+      magenta: '0xbb9af7'
+      cyan:    '0x0db9d7'
+      white:   '0xacb0d0'
 
-# Colors (Tomorrow Night)
-colors: *panda
+  tokyo-night-storm: &tokyo-night-storm
+    primary:
+      background: '0x24283b'
+      foreground: '0xa9b1d6'
+    normal:
+      black:   '0x32344a'
+      red:     '0xf7768e'
+      green:   '0x9ece6a'
+      yellow:  '0xe0af68'
+      blue:    '0x7aa2f7'
+      magenta: '0xad8ee6'
+      cyan:    '0x449dab'
+      white:   '0x9699a8'
+    bright:
+      black:   '0x444b6a'
+      red:     '0xff7a93'
+      green:   '0xb9f27c'
+      yellow:  '0xff9e64'
+      blue:    '0x7da6ff'
+      magenta: '0xbb9af7'
+      cyan:    '0x0db9d7'
+      white:   '0xacb0d0'
+
+  nord: &nord
+    primary:
+      background: '#2E3440'
+      foreground: '#D8DEE9'
+    normal:
+      black:   '#3B4252'
+      red:     '#BF616A'
+      green:   '#A3BE8C'
+      yellow:  '#EBCB8B'
+      blue:    '#81A1C1'
+      magenta: '#B48EAD'
+      cyan:    '#88C0D0'
+      white:   '#E5E9F0'
+    bright:
+      black:   '#4C566A'
+      red:     '#BF616A'
+      green:   '#A3BE8C'
+      yellow:  '#EBCB8B'
+      blue:    '#81A1C1'
+      magenta: '#B48EAD'
+      cyan:    '#8FBCBB'
+      white:   '#ECEFF4'
+
+  dracula: &dracula
+    primary:
+      background: '#282a36'
+      foreground: '#f8f8f2'
+    normal:
+      black:   '#000000'
+      red:     '#ff5555'
+      green:   '#50fa7b'
+      yellow:  '#f1fa8c'
+      blue:    '#caa9fa'
+      magenta: '#ff79c6'
+      cyan:    '#8be9fd'
+      white:   '#bfbfbf'
+    bright:
+      black:   '#575b70'
+      red:     '#ff6e67'
+      green:   '#5af78e'
+      yellow:  '#f4f99d'
+      blue:    '#caa9fa'
+      magenta: '#ff92d0'
+      cyan:    '#9aedfe'
+      white:   '#e6e6e6'
+
+colors: *tokyo-night-storm
   # Default colors
   #primary:
   #  background: '#1d1f21'
@@ -339,7 +429,7 @@ colors: *panda
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-#background_opacity: 1.0
+background_opacity: 0.9
 
 selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
