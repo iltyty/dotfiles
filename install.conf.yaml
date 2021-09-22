@@ -6,6 +6,10 @@
 - clean: ['~']
 
 - link:
+    ~/init.sh:
+      path: init.sh
+      force: true
+
     ~/.zshrc:
       path: zshrc
       force: true

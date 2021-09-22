@@ -3,10 +3,9 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export PATH=$PATH:$HOME/.emacs.d/bin
-export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'
-export ANDROID_EMU_TEST_WITH_WINDOW=1
-export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+export PATH=$PATH:$HOME/.emacs.d/bin:$HOME/.cargo/bin
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
+export PYTHONPATH="$HOME/.local/lib/python3.9/site-packages"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -117,3 +116,7 @@ alias sss="sudo pacman -Ss"
 
 alias vi="vim"
 alias nvi="nvim"
+
+alias rb="reboot"
+
+[[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh Z

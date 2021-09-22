@@ -1,6 +1,4 @@
 {
-    "workbench.colorTheme": "Palenight Theme",
-    "python.pythonPath": "Q:\\Work\\DevEnv\\Python\\python.exe",
     "files.autoSave": "onFocusChange",
 
     "vim.leader": "<space>",
@@ -59,11 +57,122 @@
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "editor.fontFamily": "Fantasque Sans Mono, Fira Code, Consolas, 'Courier New', monospace",
-    "workbench.editorAssociations": [
+    "workbench.editorAssociations": {
+        "*.pdf": "default",
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "editor.fontSize": 16,
+    "[cpp]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "keyboard.dispatch": "keyCode",
+    "explorer.confirmDragAndDrop": false,
+    "matlab.mlintpath": "/usr/local/MATLAB/R2021a/bin/glnxa64",
+    "python.languageServer": "Pylance",
+
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.tools": [
         {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
+            // 编译工具和命令
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
         }
     ],
-    "editor.fontSize": 16,
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ],
+        },
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "xe->bib->xe->xe",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdf->bib->pdf->pdf",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        }
+    ],
+    "explorer.confirmDelete": false,
+
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "1",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx-remote",
+    "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx-remote -t {im}",
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "tabnine.experimentalAutoImports": true,
+
+    "terminal.external.linuxExec": "alacritty",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        },
+        "zsh (2)": {
+            "path": "/usr/bin/zsh"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh (2)",
+    "path-intellisense.absolutePathToWorkspace": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Atom One Light",
+    "workbench.iconTheme": "material-icon-theme",
 }
